@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>已知二叉树的前序遍历和中序遍历，输出该二叉树</title>
+    <meta name="description" value="已知一个二叉树的每个结点不含重复值，已知它的前序遍历（先序遍历）结果和一个二叉树的中序遍历结果，输出该二叉树" />
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.1.0/dist/echarts.min.js"></script>
+</head>
+<body>
+    <div id="main" style="width:600px;height:700px;border:1px solid skyblue"></div>
+    <div>
+        <label for="pretraversal">先序遍历(值用逗号隔开)</label>
+        <input id="pretraversal" type="text" value="1,2,4,7,3,5,6,8" />
+    </div>
+    <div>
+        <label for="midtraversal">中序遍历(值用逗号隔开)</label>
+        <input id="midtraversal" type="text" value="4,7,2,1,5,3,6,8" />
+    </div>
+    <button id="btnDraw">绘制</button>
+    <script src="./solution.js"></script>
+</body>
+
+</html>
